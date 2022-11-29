@@ -1,0 +1,76 @@
+@import "./mixin";
+@import "./variables";
+
+.containerform{
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    @include tipocolor ($colorprincipal, $tipografia);
+
+
+    & h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-family: $tipografia;
+    }
+
+    & p{
+        font-size: 17px;
+        line-height: 2;
+        margin-bottom: 30px;
+    }
+
+    & a{
+        @include tipocolor ($colorprincipal, $tipografia);
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        font-weight: 300;
+
+        & i{
+            color:$colorprincipal;
+            margin-right: 10px;
+        }
+    }
+
+    & .campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 14px;
+        @include tipocolor ($colorprincipal, $tipografia);
+        border: 2px solid;
+        border-color:$colorprincipal;
+        margin-bottom: 50px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+
+    & form textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    & .btn-enviar{
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        background: white;
+        color:$colorprincipal;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+
+        &:hover{
+            background:$colorprincipal;
+            color: white;
+        }
+    }
+} 

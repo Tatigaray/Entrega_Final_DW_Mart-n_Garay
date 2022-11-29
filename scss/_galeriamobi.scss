@@ -1,0 +1,273 @@
+#galeriamobi{
+    display:grid;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-areas:"a1 a2 a3"
+                        "a4 a5 a6"
+                        "a7 a8 a9";
+                        
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+
+    & .foto1{
+        grid-area: a1;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    
+    & .foto2{
+        grid-area: a2;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto3{
+        grid-area: a3;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto4{
+        grid-area: a4;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto5{
+        grid-area: a5;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto6{
+        grid-area: a6;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto7{
+        grid-area: a7;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+
+    & .foto8{
+        grid-area: a8;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto9{
+        grid-area: a9;
+        width: auto;
+        height: auto;
+        max-height: 550px;
+        max-width: 550px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+        }
+    }
+
+@media only screen and (max-width:600px){
+
+    #galeriamobi{
+    height: 3000px;
+    grid-template-columns: 90%;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-areas:"a1"
+                        "a2"
+                        "a3"
+                        "a4"
+                        "a5"
+                        "a6"
+                        "a7"
+                        "a8"
+                        "a9";
+    justify-content: center;
+    align-content: space-around;
+     
+    & .foto1{
+        grid-area: a1;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    
+    & .foto2{
+        grid-area: a2;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto3{
+        grid-area: a3;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto4{
+        grid-area: a4;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto5{
+        grid-area: a5;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto6{
+        grid-area: a6;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto7{
+        grid-area: a7;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+
+    & .foto8{
+        grid-area: a8;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+    }
+    & .foto9{
+        grid-area: a9;
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 5px;
+
+        &:hover{transform: scale(1.5);
+        transition: .6s;}
+        }
+    }
+}

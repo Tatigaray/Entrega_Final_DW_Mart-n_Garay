@@ -1,0 +1,29 @@
+nav {
+    background-color: #fff;
+
+    & ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        list-style: none;
+        height: 80px; 
+    
+        & li {
+            height: 20px;
+        
+            & .menunav {
+                font-size: 22px;
+                font-family: 'Roboto', sans-serif;
+                text-decoration: none;
+                padding: 20px;
+                color: #3386ba;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #79b1de; }
+                }
+        
+        }
+    
+    }
+}

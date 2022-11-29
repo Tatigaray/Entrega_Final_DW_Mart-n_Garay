@@ -1,0 +1,4 @@
+@mixin tipocolor ($colorprincipal, $tipografia) {
+    color: $colorprincipal;
+    font-family: $tipografia;
+}
